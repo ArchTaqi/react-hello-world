@@ -11,6 +11,7 @@ function App() {
         <p>
           Welcome All Buddies to Buddy Webinar!!!
         </p>
+                <p>REACT_APP_MY_ENV_VARIABLE: {process.env.REACT_APP_MY_ENV_VARIABLE}</p>
       </header>
     </div>
   );
